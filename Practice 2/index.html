@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown Timer</title>
+
+    <style>
+      .timer {
+        display: inline-block;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="formdiv">
+      <input id="myDate" type="datetime-local" />
+      <button onclick="window.initializeClock('clockDiv', 'myDate')">
+        Start
+      </button>
+    </div>
+    <div id="clockDiv"></div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
